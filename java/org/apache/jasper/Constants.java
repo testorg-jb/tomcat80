@@ -33,8 +33,7 @@ public class Constants {
     /**
      * The base class of the generated servlets.
      */
-    public static final String JSP_SERVLET_BASE =
-        System.getProperty("org.apache.jasper.Constants.JSP_SERVLET_BASE", "org.apache.jasper.runtime.HttpJspBase");
+    public static final String JSP_SERVLET_BASE = System.getProperty("org.apache.jasper.Constants.JSP_SERVLET_BASE", "org.apache.jasper.runtime.HttpJspBase");
 
     /**
      * _jspService is the name of the method that is called by
